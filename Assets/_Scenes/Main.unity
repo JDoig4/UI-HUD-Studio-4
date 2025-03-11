@@ -509,7 +509,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b79fa39e957ffe941b8eb5449bc3ae1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: {r: 1, g: 0.56652045, b: 0, a: 1}
+  color: {r: 0, g: 1, b: 0.8264365, a: 1}
   mr: {fileID: 286123812}
 --- !u!23 &286123812
 MeshRenderer:
