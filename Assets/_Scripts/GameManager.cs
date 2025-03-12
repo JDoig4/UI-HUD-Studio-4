@@ -19,6 +19,7 @@ public class GameManager : SingletonMonoBehavior<GameManager>
     protected override void Awake()
     {
         base.Awake();
+        Time.timeScale = 1f; // Ensure time scale is set to 1 when the game starts
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
         inputManager.OnSettingsMenu.AddListener(ToggleSettingsMenu);
